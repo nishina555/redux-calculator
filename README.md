@@ -2,6 +2,27 @@
 
 This project template was built with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+## How to Run the app locally
+Install node modules
+
+```
+cd redux-calculator
+npm install
+```
+
+Run the app
+
+```
+npm start
+```
+
+If you want to exit the app
+
+```
+ctrl + C
+```
+
+
 ## Available Scripts
 
 In the project directory, you can run:
