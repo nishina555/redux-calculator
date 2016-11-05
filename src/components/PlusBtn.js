@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { PropTypes } from 'react';
 
-const PlusBtn = () => (
-  <button>+</button>
+const PlusBtn = ({ onClick }) => (
+  <button onClick={ onClick }>+</button>
 )
+
+PlusBtn.propTypes = {
+  onClick: PropTypes.func.isRequired,
+};
 
 export default PlusBtn

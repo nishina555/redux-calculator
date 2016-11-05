@@ -7,13 +7,13 @@ const initialAppState = {
 };
 
 const calculator = (state = initialAppState, action) => {
-  if (action.type === 'INPUT_NUMBER') {
+  if (action.type === actionTypes.INPUT_NUMBER) {
     return {
       ...state,
       inputValue: state.inputValue * 10 + action.number,
       showingResult: false,
     };
-  } else if (action.type === 'PLUS') {
+  } else if (action.type === actionTypes.PLUS) {
     return {
       ...state,
       inputValue: 0,
@@ -24,3 +24,5 @@ const calculator = (state = initialAppState, action) => {
     return state;
   }
 };
+
+export default calculator;
