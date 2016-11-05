@@ -3,7 +3,7 @@ import React from 'react'
 
 const Result = ({ result }) => (
   <div>
-    結果: <span>{result}</span>
+    Result: <span>{result}</span>
   </div>
 )
 
