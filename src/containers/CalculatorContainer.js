@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import NumBtn from '../components/NumBtn';
 import PlusBtn from '../components/PlusBtn';
 
-class CounterContainer extends Component {
+class CalculatorContainer extends Component {
   render() {
     return (
       <div>
@@ -33,4 +33,4 @@ class CounterContainer extends Component {
   }
 }
 
-export default CounterContainer;
+export default CalculatorContainer;

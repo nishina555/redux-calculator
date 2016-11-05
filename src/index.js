@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ContainerCalcurator from './containers/ContainerCalcurator';
+import CalculatorContainer from './containers/CalculatorContainer';
 import './index.css';
 
 ReactDOM.render(
-  <ContainerCalcurator />,
+  <CalculatorContainer />,
   document.getElementById('root')
 );
