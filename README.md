@@ -21,6 +21,10 @@ If you want to exit the app
 ```
 ctrl + C
 ```
+## Tutorial for this application
+I wrote a tutorial for this application.
+If you want to create it by yourself, please check this page.(but this article is written in Japanese.)
+[電卓アプリで学ぶReact/Redux入門(実装編)](http://qiita.com/nishina555/items/9ff744a897af8ed1679b)
 
 
 ## Available Scripts
